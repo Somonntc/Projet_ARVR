@@ -23,6 +23,9 @@ public class PlayerController : MonoBehaviour
     {
         HandleMovement();
         HandleCameraMovement();
+        if(transform.position.y <= 0){
+            transform.position = new Vector3(-5, 3.4f, 0f);
+        }
     }
 
     private void HandleMovement(){
