@@ -30,8 +30,7 @@ public class GoldenKeyTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         //Collision with golden key
         if(other.gameObject.layer == GoldenKey){
-            GoldenkeyCounter += 1;
-            print("GoldenKey taken, current number of key : " + GoldenkeyCounter);
+            KeyTakken();
             Destroy(other.gameObject);
         }
         ///Collision for the next level need to add && GoldenKeyCounter == 5 condition
@@ -39,6 +38,11 @@ public class GoldenKeyTrigger : MonoBehaviour
             print("Load the other scene");
             SceneManager.LoadScene("Scene3");
         }
+    }
+
+    public static void KeyTakken(){
+        GoldenkeyCounter += 1;
+        print("GoldenKey taken, current number of key : " + GoldenkeyCounter);
     }
 
     

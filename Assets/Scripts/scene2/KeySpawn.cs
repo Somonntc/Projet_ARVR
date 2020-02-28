@@ -25,18 +25,18 @@ public class KeySpawn : MonoBehaviour
         while(spawn){
             //Golden Key spawn
             goldenKey = Instantiate(GoldenKey, SpawnRandomPosition(), GetRandomRotation());
-            Destroy(goldenKey, 10f);
+            Destroy(goldenKey, 100f);
             //Other key spawn
             for(int i = 0; i<=3; i++){
                 dummyKey = Instantiate(DummyKey, SpawnRandomPosition(), GetRandomRotation());
-                Destroy(dummyKey, 10f);
+                Destroy(dummyKey, 100f);
                 randomColor = Random.ColorHSV(0f, 1f);
                 //Change color of each dummy key
                 foreach(Renderer childRenderer in dummyKey.GetComponentsInChildren<Renderer>()){
                     childRenderer.material.color = randomColor;
                 }
             }
-            yield return new WaitForSeconds(15f);
+            yield return new WaitForSeconds(150f);
         }
     }
 

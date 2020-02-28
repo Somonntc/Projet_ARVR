@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7341829961692799054}
   - component: {fileID: 7341829961692799089}
   - component: {fileID: 7341829961692799088}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 7341829962008253010}
   - component: {fileID: 7341829962008253013}
   - component: {fileID: 7341829962008253012}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 7341829962170999028}
   - component: {fileID: 7341829962170999031}
   - component: {fileID: 7341829962170999030}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 7341829962377971889}
   - component: {fileID: 7341829962377971892}
   - component: {fileID: 7341829962377971891}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 7341829962418834155}
   - component: {fileID: 7341829962418834158}
   - component: {fileID: 7341829962418834157}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7341829962869378074}
   - component: {fileID: 8416718074177408689}
-  m_Layer: 0
+  - component: {fileID: 1079751364829061437}
+  m_Layer: 14
   m_Name: Dummy Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,6 +466,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1079751364829061437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341829962869378073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.81690514, y: 0.37950346, z: 1}
+  m_Center: {x: -0.2506027, y: 0.027162833, z: 0}
 --- !u!1 &7341829962936961780
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +490,7 @@ GameObject:
   - component: {fileID: 7341829962936961781}
   - component: {fileID: 7341829962936961784}
   - component: {fileID: 7341829962936961783}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
