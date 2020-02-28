@@ -12,7 +12,7 @@ public class CrownTrigger : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other){
         if(other.gameObject.layer == Crown){
-            //Do stuff that end the game
+            Destroy(other.gameObject);
             print("Game ended noice");
         }
     }

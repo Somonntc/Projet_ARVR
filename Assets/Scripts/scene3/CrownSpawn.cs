@@ -7,7 +7,6 @@ public class CrownSpawn : MonoBehaviour
     [SerializeField] private GameObject crownPrefab = default;
     private GameObject crown;
     [SerializeField] private float timer = 10f;
-    private Vector3 a;
     // Start is called before the first frame update
 
     private void Start(){
