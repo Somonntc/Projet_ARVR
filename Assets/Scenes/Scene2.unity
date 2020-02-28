@@ -127,9 +127,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 100000, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
       propertyPath: m_Name
       value: sofa_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: 76f69c2044293fc40a066ff85ecb70df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -325,6 +361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Office_Teal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1438418636395350, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4471998557447594, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -55.7
@@ -412,6 +452,10 @@ PrefabInstance:
     - target: {fileID: 1438418636395350, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
       propertyPath: m_Name
       value: Chair_Office_Teal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438418636395350, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4471998557447594, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -600,9 +644,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 1099517711492990, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1934640187050226, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
       propertyPath: m_Name
       value: Table2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934640187050226, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4880014067165436, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -702,6 +754,10 @@ PrefabInstance:
     - target: {fileID: 1189782351792700, guid: 20661e78605491946911818aa730569b, type: 3}
       propertyPath: m_Name
       value: Laptop_Closed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189782351792700, guid: 20661e78605491946911818aa730569b, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4839676560386254, guid: 20661e78605491946911818aa730569b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -871,6 +927,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866625482254020, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4412181434364532, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.6968155
@@ -948,9 +1012,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 100000, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
       propertyPath: m_Name
       value: chair_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1046,6 +1138,10 @@ PrefabInstance:
     - target: {fileID: 1382680370001608, guid: 112cc81e36e745449bf229e4dbb3e073, type: 3}
       propertyPath: m_Name
       value: Laptop_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382680370001608, guid: 112cc81e36e745449bf229e4dbb3e073, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4225381643663648, guid: 112cc81e36e745449bf229e4dbb3e073, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,6 +1342,14 @@ PrefabInstance:
     - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_Name
       value: Plant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866625482254020, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4412181434364532, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1453,6 +1557,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866625482254020, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4412181434364532, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.79706
@@ -1524,6 +1636,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 1068215577130362432, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068599049766149076, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068599050824326365, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069085815543744972, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6543380802181687868, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1583,6 +1715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeskWithChair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6873705735227486602, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e, type: 3}
@@ -1733,9 +1870,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 1099517711492990, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1934640187050226, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
       propertyPath: m_Name
       value: Table2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934640187050226, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4880014067165436, guid: 03f20034d807f154aac7b5ed64a2b8d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1817,6 +1962,14 @@ PrefabInstance:
     - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_Name
       value: Plant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333229362547104, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866625482254020, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4412181434364532, guid: 99572ba23e03dcf4e920fdb72739b3ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2123,6 +2276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_OfficeDesk2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1338192570120840, guid: cd74bf6cea4234840b01646a5b3f339a, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4574124760409694, guid: cd74bf6cea4234840b01646a5b3f339a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -123.555084
@@ -2194,9 +2351,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 100000, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
       propertyPath: m_Name
       value: chair_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d534d0198c237a043a8e671f0bf2859e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2386,6 +2571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_OfficeDesk2
       objectReference: {fileID: 0}
+    - target: {fileID: 1338192570120840, guid: cd74bf6cea4234840b01646a5b3f339a, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4574124760409694, guid: cd74bf6cea4234840b01646a5b3f339a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -100.03369
@@ -2460,6 +2649,14 @@ PrefabInstance:
     - target: {fileID: 1080759092540122, guid: a3d7c424584bdc04caa8f9718872c46f, type: 3}
       propertyPath: m_Name
       value: WaterGarrafon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080759092540122, guid: a3d7c424584bdc04caa8f9718872c46f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983149323727374, guid: a3d7c424584bdc04caa8f9718872c46f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4916291209492316, guid: a3d7c424584bdc04caa8f9718872c46f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2574,6 +2771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laptop_On (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1382680370001608, guid: 112cc81e36e745449bf229e4dbb3e073, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4225381643663648, guid: 112cc81e36e745449bf229e4dbb3e073, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.8
@@ -2645,6 +2846,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996340756}
     m_Modifications:
+    - target: {fileID: 1068215577130362432, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068599049766149076, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068599050824326365, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069085815543744972, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6543380802181687868, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2705,6 +2926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeskWithChair
       objectReference: {fileID: 0}
+    - target: {fileID: 6873705735227486602, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7423ebee0b10ec4aa9ceb0cb5cbce7e, type: 3}
 --- !u!4 &1764964775 stripped
@@ -2723,6 +2949,10 @@ PrefabInstance:
     - target: {fileID: 1438418636395350, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
       propertyPath: m_Name
       value: Chair_Office_Teal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438418636395350, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4471998557447594, guid: f459aae84ece7154f8d0ee90f554eeb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2791,7 +3021,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996340756}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}

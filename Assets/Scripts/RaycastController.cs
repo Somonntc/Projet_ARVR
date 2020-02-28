@@ -8,7 +8,7 @@ public class RaycastController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        layerMask = LayerMask.GetMask("Window", "Tableau", "Book", "Crown", "GoldenKey", "DummyKey");
+        layerMask = LayerMask.GetMask("Window", "Tableau", "Book", "Crown", "GoldenKey", "DummyKey", "Furniture");
     }
 
     // Update is called once per frame
@@ -19,8 +19,8 @@ public class RaycastController : MonoBehaviour
 
     void DisplayRaycastHit(){
         RaycastHit hit;
-        Debug.DrawRay(transform.position, transform.forward * 15);
-        if(Physics.Raycast (transform.position, transform.forward, out hit, 15, layerMask)) {
+        Debug.DrawRay(transform.position, transform.forward * Mathf.Infinity);
+        if(Physics.Raycast (transform.position, transform.forward, out hit, Mathf.Infinity, layerMask)) {
              if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Window")) {
                  Debug.Log("It's a window");
              }
