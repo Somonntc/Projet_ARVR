@@ -24,11 +24,11 @@ public class KeySpawn : MonoBehaviour
     public IEnumerator DoSpawns() {
         while(spawn){
             //Golden Key spawn
-            goldenKey = Instantiate(GoldenKey, new Vector3(10, 8, 10), GetRandomRotation());
+            goldenKey = Instantiate(GoldenKey, SpawnRandomPosition(), GetRandomRotation());
             Destroy(goldenKey, 10f);
             //Other key spawn
             for(int i = 0; i<=3; i++){
-                dummyKey = Instantiate(DummyKey, new Vector3(12, 8, 12), GetRandomRotation());
+                dummyKey = Instantiate(DummyKey, SpawnRandomPosition(), GetRandomRotation());
                 Destroy(dummyKey, 10f);
                 randomColor = Random.ColorHSV(0f, 1f);
                 //Change color of each dummy key
@@ -42,9 +42,9 @@ public class KeySpawn : MonoBehaviour
 
     private Vector3 SpawnRandomPosition(){
         return new Vector3(
-            Random.Range(-61f, 134f),
-            11,
-            Random.Range(-41f, 53f)
+            Random.Range(-98f, 98),
+            8,
+            Random.Range(-57f, 72f)
         );
     }
 
