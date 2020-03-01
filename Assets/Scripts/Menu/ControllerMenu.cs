@@ -14,18 +14,19 @@ public class ControllerMenu : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI loginName;
     [SerializeField] TextMeshProUGUI loginPassword;
+    [SerializeField] TextMeshProUGUI loginmsg;
 
     [SerializeField] TextMeshProUGUI RegisterName;
     [SerializeField] TextMeshProUGUI RegisterPassword;
     [SerializeField] TextMeshProUGUI RegisterNom;
     [SerializeField] TextMeshProUGUI RegisterPrenom;
     [SerializeField] TextMeshProUGUI RegisterEmail;
-    [SerializeField] TextMeshProUGUI msg;
+    [SerializeField] TextMeshProUGUI Registermsg;
 
     // Start is called before the first frame update
     void Start()
     {
-        listofperson.Add(new Person("admin", "admin", "admin", "admin", "admin"));
+        remove();
     }
 
     // Update is called once per frame
@@ -37,17 +38,21 @@ public class ControllerMenu : MonoBehaviour
     public void Login()
     {
         foreach (Person p in listofperson){
-            string pseudo = loginName.GetParsedText();
-            string password = loginPassword.GetParsedText();
-
-            Debug.Log(pseudo.Equals(p.getPseudo()));
-            Debug.Log(password.Equals(p.getPassword()));
+            string pseudo = loginName.GetParsedText().Trim();
+            string password = loginPassword.GetParsedText().Trim();
 
             if (pseudo.Equals(p.getPseudo()) & password.Equals(p.getPassword()))
             {
                 personInGame = p;
                 SceneManager.LoadScene(scene);
                 Cursor.lockState = CursorLockMode.None;
+                loginmsg.SetText("Login Success");
+                loginmsg.color = Color.green;
+            }
+            else
+            {
+                loginmsg.color = Color.red;
+                loginmsg.SetText("Login fail");
             }
         }
     }
@@ -60,21 +65,27 @@ public class ControllerMenu : MonoBehaviour
         string Prenom = RegisterPrenom.text;
         string Email = RegisterEmail.text;
 
-        if(pseudo != null & password != null & Nom != null & Prenom != null & Email != null){
+        if(pseudo != String.Empty & password != String.Empty & Nom != String.Empty & Prenom != String.Empty & Email != String.Empty)
+        {
             listofperson.Add(new Person(pseudo, password, Nom, Prenom, Email));
-            RegisterPrenom.SetText(String.Empty);
-            RegisterPassword.SetText(String.Empty);
-            RegisterNom.SetText(String.Empty);
-            RegisterPrenom.SetText(String.Empty);
-            RegisterEmail.SetText(String.Empty);
-            msg.SetText("Register Success");
-            msg.color = Color.green;
+            remove();
+            Registermsg.SetText("Register Success");
+            Registermsg.color = Color.green;
         }
         else
         {
-            msg.color = Color.red;
-            msg.SetText("Register fail");
+            Registermsg.color = Color.red;
+            Registermsg.SetText("Register fail");
         }
+    }
+
+    private void remove()
+    {
+        RegisterPrenom.text = String.Empty;
+        RegisterPassword.text = String.Empty;
+        RegisterNom.text = String.Empty;
+        RegisterPrenom.text = String.Empty;
+        RegisterEmail.text = String.Empty;
     }
 
 }
