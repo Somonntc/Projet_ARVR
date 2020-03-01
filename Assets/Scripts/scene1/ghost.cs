@@ -49,7 +49,6 @@ public class ghost : MonoBehaviour
         {
             animation["mixamo.com"].speed = 0;
             time += Time.deltaTime;
-            Debug.Log(time);
             if(time > 180)
             {
                 spawner.GetComponent<ControllerSpawn>().isToggled = true;

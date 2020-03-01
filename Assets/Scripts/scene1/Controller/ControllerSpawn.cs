@@ -29,5 +29,4 @@ public class ControllerSpawn : MonoBehaviour
             isToggled = false;
         }
     }
-
 }

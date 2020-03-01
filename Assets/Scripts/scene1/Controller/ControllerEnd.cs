@@ -21,7 +21,7 @@ public class ControllerEnd : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Finish");
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Scene2");
         Cursor.lockState = CursorLockMode.None;
     }
 
