@@ -20,6 +20,7 @@ public class ControllerMenu : MonoBehaviour
     [SerializeField] TextMeshProUGUI RegisterNom;
     [SerializeField] TextMeshProUGUI RegisterPrenom;
     [SerializeField] TextMeshProUGUI RegisterEmail;
+    [SerializeField] TextMeshProUGUI msg;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +37,8 @@ public class ControllerMenu : MonoBehaviour
     public void Login()
     {
         foreach (Person p in listofperson){
-            string pseudo = "admin";
-            string password = "admin";
+            string pseudo = loginName.GetParsedText();
+            string password = loginPassword.GetParsedText();
 
             Debug.Log(pseudo.Equals(p.getPseudo()));
             Debug.Log(password.Equals(p.getPassword()));
@@ -53,7 +54,27 @@ public class ControllerMenu : MonoBehaviour
 
     public void Register()
     {
+        string pseudo = RegisterPrenom.text;
+        string password = RegisterPassword.text;
+        string Nom = RegisterNom.text;
+        string Prenom = RegisterPrenom.text;
+        string Email = RegisterEmail.text;
 
+        if(pseudo != null & password != null & Nom != null & Prenom != null & Email != null){
+            listofperson.Add(new Person(pseudo, password, Nom, Prenom, Email));
+            RegisterPrenom.SetText(String.Empty);
+            RegisterPassword.SetText(String.Empty);
+            RegisterNom.SetText(String.Empty);
+            RegisterPrenom.SetText(String.Empty);
+            RegisterEmail.SetText(String.Empty);
+            msg.SetText("Register Success");
+            msg.color = Color.green;
+        }
+        else
+        {
+            msg.color = Color.red;
+            msg.SetText("Register fail");
+        }
     }
 
 }
