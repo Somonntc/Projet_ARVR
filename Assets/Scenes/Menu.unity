@@ -2773,7 +2773,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nom : Saumon'
+  m_text: 'Nom : Somon
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2844,7 +2846,7 @@ MonoBehaviour:
     textComponent: {fileID: 926207673}
     characterCount: 12
     spriteCount: 0
-    spaceCount: 2
+    spaceCount: 3
     wordCount: 2
     linkCount: 0
     lineCount: 1
@@ -4600,13 +4602,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a141a0f9ccfb842b17b2341d938174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loginName: {fileID: 1374078493}
-  loginPassword: 
-  RegisterName: 
-  RegisterPassword: 
-  RegisterNom: 
-  RegisterPrenom: 
-  RegisterEmail: 
+  scene: Scene1
+  loginName: {fileID: 0}
+  loginPassword: {fileID: 0}
+  RegisterName: {fileID: 0}
+  RegisterPassword: {fileID: 0}
+  RegisterNom: {fileID: 0}
+  RegisterPrenom: {fileID: 0}
+  RegisterEmail: {fileID: 0}
 --- !u!1 &1465193720
 GameObject:
   m_ObjectHideFlags: 0
