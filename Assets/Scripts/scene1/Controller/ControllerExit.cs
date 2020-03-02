@@ -23,7 +23,6 @@ public class ControllerExit : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene(scene);
-        Cursor.lockState = CursorLockMode.None;
     }
 
 }
